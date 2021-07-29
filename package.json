@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.6",
+    "n": "^7.3.0",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "postcss css/tailwind.css -o public/css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VictoriaDiro/tailwind-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VictoriaDiro/tailwind-css/issues"
+  },
+  "homepage": "https://github.com/VictoriaDiro/tailwind-css#readme"
+}
